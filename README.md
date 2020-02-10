@@ -19,9 +19,9 @@ Site utilizado para web scraping: www.livescore18.com (qualquer jogo ao vivo ou 
 Exemplo: https://www.livescore18.com/football-match/inter-milan-vs-ac-milan/summary-1763623/
 
 <h4>Como deve ser o input:</h4>
-- Primeira linha: numerodeJogos.
-- Nlinhas 1: link do site
-- Nlinhas 2: horário de inicio do jogo.
+* Primeira linha: numerodeJogos.
+* Nlinhas 1: link do site
+* Nlinhas 2: horário de inicio do jogo.
 
 <h4>Bugs encontrados:</h4>
 - Quando há um cartão vermelho no jogo, é criada uma nova div no class 'barData', como estou usando apenas o next_sibling, os dados capturados são deslocados. Assim, no lugar da div chutes, recebo os dados de cartões vermelhos e no lugar de ataques perigoosos, recebo apenas ataques.
