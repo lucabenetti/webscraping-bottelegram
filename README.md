@@ -20,3 +20,9 @@ Recolher os dados de escanteios, chutes e ataques perigoso dos times de casa e f
 
 * www.livescore18.com (qualquer jogo ao vivo ou que ja foi finalizado).
 - Exemplo: https://www.livescore18.com/football-match/inter-milan-vs-ac-milan/summary-1763623/
+
+<h4>Como deve ser o input:</h4>
+
+* Primeira linha: numerodeJogos.
+* Nlinhas 1: link do site
+* Nlinhas 2: horário de inicio do jogo.
