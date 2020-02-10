@@ -15,3 +15,6 @@ Recolher os dados de escanteios, chutes e ataques perigoso dos times de casa e f
 * time (usada para controlar o tempo de atualização do programa)
 * datetime (usada para comparar o horário atual com o horário de input)
 * re (retirar as partes indesejadas do código html)
+
+<h4>Site utilizado para web scraping: www.livescore18.com (qualquer jogo ao vivo ou que ja foi finalizado).
+Exemplo: https://www.livescore18.com/football-match/inter-milan-vs-ac-milan/summary-1763623/ </h4>
