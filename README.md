@@ -23,6 +23,13 @@ Recolher os dados de escanteios, chutes e ataques perigoso dos times de casa e f
 
 <h4>Como deve ser o input:</h4>
 
-* Primeira linha: numerodeJogos.
-* Nlinhas 1: link do site
-* Nlinhas 2: horário de inicio do jogo.
+* Primeira linha: numeroDeJogos.
+* nLinhas 1: link do site.
+* nLinhas 2: horário de inicio do jogo.
+
+<h4>Bugs encontrados:</h4>
+
+- Quando há um cartão vermelho no jogo, é criada uma nova div no class 'barData', como estou usando apenas o next_sibling, os dados capturados são deslocados. Assim, no lugar da div chutes, recebo os dados de cartões vermelhos e no lugar de ataques perigoosos, recebo apenas ataques.
+- (FIXED) Quando o jogo não é iniciado, a class barData ainda não existe, resultando em um erro e fim do porgrama.
+FIX: acrescentar o dado horário no input (que deve ser sempre adicionado +1 a hora real de inicio do evento), comparando ele com a hora real. (não foi possível pegar o horário do próprio site por meio de webscraping).
+- Tentei ler arquivos txt, onde estariam os links e horários dos jogos, mas por alguma razão o BeautifulSoup dava erro ao ler a string.
