@@ -24,6 +24,7 @@ Get data of corners kicks, shots, dangerous attacks of both teams (home and away
 * First line: numberOfMatches.
 * nLines 1: url of page.
 * nLines 2: hour of beginning of match. (always +1 hour of the actual hour of the start of event).
+* Example: [Input Example].
 
 <h4>Bugs</h4>
 
@@ -62,6 +63,7 @@ Recolher os dados de escanteios, chutes e ataques perigoso dos times de casa e f
 * Primeira linha: numeroDeJogos.
 * nLinhas 1: link do site.
 * nLinhas 2: horário de inicio do jogo. (deve ser sempre adicionado +1 a hora real de inicio do evento).
+* Exemplo: [Input Example].
 
 <h4>Bugs encontrados:</h4>
 
@@ -69,3 +71,5 @@ Recolher os dados de escanteios, chutes e ataques perigoso dos times de casa e f
 - (FIXED) Quando o jogo não é iniciado, a class barData ainda não existe, resultando em um erro e fim do porgrama.
 FIX: acrescentar o dado horário no input (que deve ser sempre adicionado +1 a hora real de inicio do evento), comparando ele com a hora real. (não foi possível pegar o horário do próprio site por meio de webscraping).
 - Tentei ler arquivos txt, onde estariam os links e horários dos jogos, mas por alguma razão o BeautifulSoup dava erro ao ler a string.
+
+[Input Example]: https://github.com/lucabenetti/webscraping-bottelegram/blob/master/input%20example.txt
