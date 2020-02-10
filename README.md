@@ -3,7 +3,7 @@
 Objective of learn more about Python (first project with the language), web scraping tools, and integration with telegram bot.
 
 <h4>Objective:</h4> 
-Get data of corners kicks, shots, dangerous attacks of both teams (home and away). If the match has more or equal than 80 dangerous attacks for a team or the sum of corners kicks and shots are equal or more than 15, the telegram bot will send the link of the game and the data.
+Get data of corners kicks, shots, dangerous attacks of both teams (home and away) of ANY MATCH. If the match has more or equal than 80 dangerous attacks for a team or the sum of corners kicks and shots are equal or more than 15, the telegram bot will send the link of the game and the data.
 
 <h4>Libraries:</h4> 
 
@@ -33,9 +33,12 @@ Get data of corners kicks, shots, dangerous attacks of both teams (home and away
 - (FIXED) When the match isn't started yet, the 'barData' class does not exists, which gives an error and stop the program.
 FIX: add the time of beginning of the match at the input (always +1 hour of the actual hour of the start of event), comparing this with the actual time (datetime library). (It was not possible to get the hour of the event from the site).
 
+<h4>Data that I wanted to grab:</h4>
+<img src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/datacatch.png" data-canonical-src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/datacatch.png" width="426" height="240" />
+
 <h4>Print in Telegram of bot working:</h4> 
 
-<img src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" data-canonical-src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" width="240" height="426" />
+<img src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" data-canonical-src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" width="169" height="593" />
 
 PT-BR
 -------
