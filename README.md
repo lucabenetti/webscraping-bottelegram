@@ -34,11 +34,11 @@ Get data of corners kicks, shots, dangerous attacks of both teams (home and away
 FIX: add the time of beginning of the match at the input (always +1 hour of the actual hour of the start of event), comparing this with the actual time (datetime library). (It was not possible to get the hour of the event from the site).
 
 <h4>Data that I wanted to grab:</h4>
-<img src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/datacatch.png" data-canonical-src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/datacatch.png" width="426" height="240" />
+<img src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/datacatch.png" data-canonical-src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/datacatch.png" width="169" height="593" />
 
 <h4>Print in Telegram of bot working:</h4> 
 
-<img src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" data-canonical-src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" width="169" height="593" />
+<img src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" data-canonical-src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" width="240" height="426" />
 
 PT-BR
 -------
