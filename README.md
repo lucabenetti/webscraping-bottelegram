@@ -1,9 +1,5 @@
 # Web Scraping + Bot Telegram
 
-# Web Scraping + Bot Telegram
-
-PT-BR
--------
 Objective of learn more about Python (first project with the language), web scraping tools, and integration with telegram bot.
 
 <h4>Objective:</h4> 
