@@ -32,7 +32,9 @@ Get data of corners kicks, shots, dangerous attacks of both teams (home and away
 - (FIXED) When the match isn't started yet, the 'barData' class does not exists, which gives an error and stop the program.
 FIX: add the time of beginning of the match at the input (always +1 hour of the actual hour of the start of event), comparing this with the actual time (datetime library). (It was not possible to get the hour of the event from the site).
 
+<h4>Print in Telegram of bot working:</h4> 
 
+<img src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" data-canonical-src="https://github.com/lucabenetti/webscraping-bottelegram/blob/master/printOfTelegram.png" width="240" height="426" />
 
 PT-BR
 -------
